@@ -25,6 +25,4 @@ public class Customer {
     @JoinColumn(name="cp_fk", referencedColumnName = "id")
     private List<Product> products;
 
-
-
 }
